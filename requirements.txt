@@ -1,0 +1,21 @@
+# RAG Pipeline Dependencies
+# Python 3.10+
+
+# LangChain
+langchain-community>=0.3.0
+langchain-core>=1.1.0
+langchain-chroma>=1.1.0
+langchain-huggingface>=1.2.0
+langchain-openai>=0.2.0
+langchain-text-splitters>=0.3.0
+
+# Vector store & embeddings
+chromadb>=1.3.5,<2.0.0
+sentence-transformers>=2.0.0
+
+# OpenAI
+openai>=1.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+jq>=1.6.0
